@@ -1,9 +1,9 @@
 provider "aws" {
   region = "us-east-1"
-  #access_key = "Myaccesskey"
-  #secret_key = "Mysecretkey"
+  #access_key = "AWS_ACCESS_KEY_ID"
+  #secret_key = "AWS_SECRET_ACCESS_KEY"
 }
-
+AWS_SECRET_ACCESS_KEY
 # 1- create vpc
 resource "aws_vpc" "test-vpc" {
   cidr_block       = "10.0.0.0/16"
